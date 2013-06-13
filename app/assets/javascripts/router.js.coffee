@@ -1,5 +1,5 @@
 Raffler.Router.map ->
   @route 'entries', path: '/'
 
-Raffler.EntriesRoute = Ember.Route.Extend
-  setupController: (controller) -> controller.set('content', [])
+Raffler.EntriesRoute = Ember.Route.extend
+  model: -> Raffler.Entry.find()
