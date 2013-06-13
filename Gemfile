@@ -37,4 +37,6 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-gem 'ember-rails'
+gem 'ember-rails', :git => 'git://github.com/emberjs/ember-rails.git'
+gem 'ember-source', '1.0.0.rc5'
+gem 'handlebars-source', '1.0.0.rc4'
